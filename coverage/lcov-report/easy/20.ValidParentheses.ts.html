@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for easy/9.PalindromeNumber.ts</title>
+    <title>Code coverage report for easy/20.ValidParentheses.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">easy</a> 9.PalindromeNumber.ts</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">easy</a> 20.ValidParentheses.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>52/52</span>
+                <span class='fraction'>55/55</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>3/3</span>
+                <span class='fraction'>5/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>52/52</span>
+                <span class='fraction'>55/55</span>
             </div>
         
             
@@ -114,7 +114,11 @@
 <a name='L49'></a><a href='#L49'>49</a>
 <a name='L50'></a><a href='#L50'>50</a>
 <a name='L51'></a><a href='#L51'>51</a>
-<a name='L52'></a><a href='#L52'>52</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -148,75 +152,83 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">14x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span></td><td class="text"><pre class="prettyprint lang-js">/**
- * 9. Palindrome Number
- * https://leetcode.com/problems/palindrome-number/description/
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
+ * 20. Valid Parentheses
+ * https://leetcode.com/problems/valid-parentheses/
  *
- * Given an integer x, return true if x is a
- * palindrome
- * , and false otherwise.
+ * Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
  *
+ * An input string is valid if:
+ *
+ * Open brackets must be closed by the same type of brackets.
+ * Open brackets must be closed in the correct order.
+ * Every close bracket has a corresponding open bracket of the same type.
  *
  *
  * Example 1:
  *
- * Input: x = 121
+ * Input: s = "()"
  * Output: true
- * Explanation: 121 reads as 121 from left to right and from right to left.
  * Example 2:
  *
- * Input: x = -121
- * Output: false
- * Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+ * Input: s = "()[]{}"
+ * Output: true
  * Example 3:
  *
- * Input: x = 10
+ * Input: s = "(]"
  * Output: false
- * Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
  *
  *
  * Constraints:
  *
- * -231 &lt;= x &lt;= 231 - 1
+ * 1 &lt;= s.length &lt;= 104
+ * s consists of parentheses only '()[]{}'.
  *
- *
- * Follow up: Could you solve it without converting the integer to a string?
- * @param x
+ * @param string
  */
-export function isPalindrome(x: number): boolean {
-    return String(x).split('').reverse().join('') === String(x)
-}
+export function isValid(string: string): boolean {
+  const stack = [];
+  const brackets = {
+    "(": ")",
+    "[": "]",
+    "{": "}",
+  };
 &nbsp;
-&nbsp;
-export const isPalindromeWithoutConvert  = function (x: number) {
-    let reverse = 0; // set to zero
-    let copy = x; // copy the input eg. 1141
-&nbsp;
-    while (copy &gt; 0) { // while our copy is positive (negative numbers cannot be palindromes)
-        const digit = copy % 10; //  i=1 ==&gt; 1141 % 10 = 1 |i=2 ==&gt; 114 % 10 = 4 | i=3 ==&gt; 11 % 10 = 1| i=4  ==&gt; 1 % 10 = 1
-        reverse = reverse * 10 + digit; //  i=1 ==&gt; 0 * 10 + 1 =1| i=2 ==&gt; 1 * 10 + 4 = 14| i=3 ==&gt; 14 * 10 + 1 = 141 | i=4 ==&gt; 141 * 10 + 1 = 1411
-        copy = ~~(copy / 10); //Math.floor(copy / 10) |/|/ i=1 ==&gt;  1141 / 10 (rounded down) = 114 |i=2  ==&gt; 114/10 = 11| i=3 ==&gt; 11/10  = 1| i=4 ==&gt; 1/10 = 0 - break while loop
+  for (let i = 0; i &lt; string.length; i++) {
+    let bracket = string[i];
+    // @ts-ignore
+    if (brackets[bracket]) {
+      // @ts-ignore
+      stack.push(brackets[bracket]);
+    } else if (bracket !== stack.pop()) {
+      return false;
     }
+  }
 &nbsp;
-    return reverse == x; // is 1411 == 1141? ==&gt; false
-};</pre></td></tr></table></pre>
+  return !stack.length;
+}
+&nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
