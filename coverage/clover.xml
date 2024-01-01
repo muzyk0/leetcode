@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1704115349129" clover="3.2.0">
-  <project timestamp="1704115349129" name="All files">
-    <metrics statements="364" coveredstatements="364" conditionals="51" coveredconditionals="51" methods="12" coveredmethods="12" elements="427" coveredelements="427" complexity="0" loc="364" ncloc="364" packages="4" files="7" classes="7"/>
-    <package name="easy">
-      <metrics statements="171" coveredstatements="171" conditionals="17" coveredconditionals="17" methods="6" coveredmethods="6"/>
-      <file name="1.TwoSum.ts" path="C:\WebProjects\leetcode\src\easy\1.TwoSum.ts">
+<coverage generated="1704116157308" clover="3.2.0">
+  <project timestamp="1704116157308" name="All files">
+    <metrics statements="364" coveredstatements="364" conditionals="51" coveredconditionals="51" methods="12" coveredmethods="12" elements="427" coveredelements="427" complexity="0" loc="364" ncloc="364" packages="7" files="7" classes="7"/>
+    <package name="leetcode.easy.1 TwoSum">
+      <metrics statements="22" coveredstatements="22" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="1.TwoSum.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\1 TwoSum\1.TwoSum.ts">
         <metrics statements="22" coveredstatements="22" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -29,7 +29,10 @@
         <line num="21" count="4" type="stmt"/>
         <line num="22" count="4" type="stmt"/>
       </file>
-      <file name="1929.ConcatenationOfArray.ts" path="C:\WebProjects\leetcode\src\easy\1929.ConcatenationOfArray.ts">
+    </package>
+    <package name="leetcode.easy.1929 ConcatenationOfArray">
+      <metrics statements="42" coveredstatements="42" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="1929.ConcatenationOfArray.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\1929 ConcatenationOfArray\1929.ConcatenationOfArray.ts">
         <metrics statements="42" coveredstatements="42" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -74,7 +77,10 @@
         <line num="41" count="2" type="stmt"/>
         <line num="42" count="2" type="stmt"/>
       </file>
-      <file name="20.ValidParentheses.ts" path="C:\WebProjects\leetcode\src\easy\20.ValidParentheses.ts">
+    </package>
+    <package name="leetcode.easy.20 ValidParentheses">
+      <metrics statements="55" coveredstatements="55" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="20.ValidParentheses.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\20 ValidParentheses\20.ValidParentheses.ts">
         <metrics statements="55" coveredstatements="55" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -132,65 +138,10 @@
         <line num="54" count="3" type="stmt"/>
         <line num="55" count="3" type="stmt"/>
       </file>
-      <file name="9.PalindromeNumber.ts" path="C:\WebProjects\leetcode\src\easy\9.PalindromeNumber.ts">
-        <metrics statements="52" coveredstatements="52" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="37" count="3" type="stmt"/>
-        <line num="38" count="3" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="41" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="42" count="3" type="stmt"/>
-        <line num="43" count="3" type="stmt"/>
-        <line num="44" count="3" type="stmt"/>
-        <line num="45" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="46" count="5" type="stmt"/>
-        <line num="47" count="5" type="stmt"/>
-        <line num="48" count="5" type="stmt"/>
-        <line num="49" count="5" type="stmt"/>
-        <line num="50" count="3" type="stmt"/>
-        <line num="51" count="3" type="stmt"/>
-        <line num="52" count="3" type="stmt"/>
-      </file>
     </package>
-    <package name="easy.21.MergeTwoSortedLists">
+    <package name="leetcode.easy.21 MergeTwoSortedLists">
       <metrics statements="109" coveredstatements="109" conditionals="20" coveredconditionals="20" methods="4" coveredmethods="4"/>
-      <file name="21.MergeTwoSortedLists.ts" path="C:\WebProjects\leetcode\src\easy\21.MergeTwoSortedLists\21.MergeTwoSortedLists.ts">
+      <file name="21.MergeTwoSortedLists.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\21 MergeTwoSortedLists\21.MergeTwoSortedLists.ts">
         <metrics statements="109" coveredstatements="109" conditionals="20" coveredconditionals="20" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -303,9 +254,9 @@
         <line num="109" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="easy.455 Assign Cookies">
+    <package name="leetcode.easy.455 Assign Cookies">
       <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="assignCookies.ts" path="C:\WebProjects\leetcode\src\easy\455 Assign Cookies\assignCookies.ts">
+      <file name="assignCookies.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\455 Assign Cookies\assignCookies.ts">
         <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="5" type="cond" truecount="1" falsecount="0"/>
@@ -321,6 +272,64 @@
         <line num="12" count="5" type="stmt"/>
         <line num="13" count="5" type="stmt"/>
         <line num="14" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="leetcode.easy.9 PalindromeNumber">
+      <metrics statements="52" coveredstatements="52" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="9.PalindromeNumber.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\9 PalindromeNumber\9.PalindromeNumber.ts">
+        <metrics statements="52" coveredstatements="52" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="49" count="5" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
       </file>
     </package>
     <package name="tests-for-work">
