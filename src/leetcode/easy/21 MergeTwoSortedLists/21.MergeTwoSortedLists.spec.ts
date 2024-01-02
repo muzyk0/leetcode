@@ -53,11 +53,11 @@ describe("21. Merge Two Sorted Lists", function () {
   it("should return [1,1,2,3,4,4] if input data list1 = [1,2,4], list2 = [1,3,4]", function () {
     const res = mergeTwoListsRecursive(
       createLinkedList([1, 2, 4]),
-      createLinkedList([1, 3, 4])
+      createLinkedList([1, 3, 4]),
     );
     const res2 = mergeTwoListsWhile(
       createLinkedList([1, 2, 4]),
-      createLinkedList([1, 3, 4])
+      createLinkedList([1, 3, 4]),
     );
 
     expect(res).toStrictEqual(createLinkedList([1, 1, 2, 3, 4, 4]));
@@ -66,7 +66,7 @@ describe("21. Merge Two Sorted Lists", function () {
   it("should return [] if input data list1 = [], list2 = []", function () {
     const res = mergeTwoListsRecursive(
       createLinkedList([]),
-      createLinkedList([])
+      createLinkedList([]),
     );
     const res2 = mergeTwoListsWhile(createLinkedList([]), createLinkedList([]));
 
@@ -77,11 +77,11 @@ describe("21. Merge Two Sorted Lists", function () {
   it("should return [0] if input data list1 = [], list2 = [0]", function () {
     const res = mergeTwoListsRecursive(
       createLinkedList([]),
-      createLinkedList([0])
+      createLinkedList([0]),
     );
     const res2 = mergeTwoListsWhile(
       createLinkedList([]),
-      createLinkedList([0])
+      createLinkedList([0]),
     );
 
     expect(res).toStrictEqual(createLinkedList([0]));

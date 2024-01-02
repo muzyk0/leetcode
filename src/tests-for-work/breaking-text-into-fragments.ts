@@ -37,34 +37,34 @@
  * @param {number} suffixLength - Длина суффикса
  */
 export const breakingTextIntoFragments = (
-    text: string,
-    fragmentLength = 140,
-    suffixLength: number = 4
+  text: string,
+  fragmentLength = 140,
+  suffixLength: number = 4,
 ): string[] => {
-    if (text.length <= fragmentLength) {
-        return [text]
+  if (text.length <= fragmentLength) {
+    return [text];
+  }
+
+  const result: string[] = [];
+
+  const words = text.split(" ");
+
+  for (let i = 0; i < words.length; i++) {
+    if (
+      result.length === 0 ||
+      result[result.length - 1].length + words[i].length >=
+        fragmentLength - suffixLength
+    ) {
+      result.push(words[i]);
+      continue;
     }
 
-    const result: string[] = [];
-
-    const words = text.split(' ');
-
-    for (let i = 0; i < words.length; i++) {
-        if (
-            result.length === 0 ||
-            result[result.length - 1].length + words[i].length >=
-            fragmentLength - suffixLength
-        ) {
-            result.push(words[i]);
-            continue;
-        }
-
-        if (result[result.length - 1].length < fragmentLength - suffixLength) {
-            result[result.length - 1] += ` ${words[i]}`;
-        }
+    if (result[result.length - 1].length < fragmentLength - suffixLength) {
+      result[result.length - 1] += ` ${words[i]}`;
     }
+  }
 
-    return result.map((message, index, array) => {
-        return `${message} ${index + 1}/${array.length}`;
-    });
+  return result.map((message, index, array) => {
+    return `${message} ${index + 1}/${array.length}`;
+  });
 };

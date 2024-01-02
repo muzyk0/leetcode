@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1704194292114" clover="3.2.0">
-  <project timestamp="1704194292114" name="All files">
-    <metrics statements="378" coveredstatements="378" conditionals="57" coveredconditionals="57" methods="13" coveredmethods="13" elements="448" coveredelements="448" complexity="0" loc="378" ncloc="378" packages="8" files="8" classes="8"/>
+<coverage generated="1704194238468" clover="3.2.0">
+  <project timestamp="1704194238468" name="All files">
+    <metrics statements="428" coveredstatements="428" conditionals="69" coveredconditionals="69" methods="15" coveredmethods="15" elements="512" coveredelements="512" complexity="0" loc="428" ncloc="428" packages="9" files="9" classes="9"/>
     <package name="easy.455 Assign Cookies">
-      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <file name="assignCookies.ts" path="C:\WebProjects\leetcode\src\easy\455 Assign Cookies\assignCookies.ts">
-        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="3" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
         <line num="4" count="5" type="stmt"/>
-        <line num="5" count="5" type="stmt"/>
-        <line num="6" count="5" type="stmt"/>
-        <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="1279" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="965" type="stmt"/>
-        <line num="10" count="965" type="stmt"/>
-        <line num="11" count="1279" type="stmt"/>
-        <line num="12" count="5" type="stmt"/>
-        <line num="13" count="5" type="stmt"/>
+        <line num="5" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1279" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="965" type="stmt"/>
+        <line num="12" count="965" type="stmt"/>
+        <line num="13" count="1279" type="stmt"/>
         <line num="14" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
       </file>
     </package>
     <package name="leetcode.easy.1 TwoSum">
@@ -274,24 +276,78 @@
         <line num="109" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="leetcode.easy.455 Assign Cookies">
-      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="assignCookies.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\455 Assign Cookies\assignCookies.ts">
-        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="3" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="5" count="5" type="stmt"/>
-        <line num="6" count="5" type="stmt"/>
-        <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="1279" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="965" type="stmt"/>
-        <line num="10" count="965" type="stmt"/>
-        <line num="11" count="1279" type="stmt"/>
-        <line num="12" count="5" type="stmt"/>
-        <line num="13" count="5" type="stmt"/>
+    <package name="leetcode.easy.26 Remove Duplicates from Sorted Array">
+      <metrics statements="46" coveredstatements="46" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+      <file name="26.RemoveDuplicatesfromSortedArray.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\26 Remove Duplicates from Sorted Array\26.RemoveDuplicatesfromSortedArray.ts">
+        <metrics statements="46" coveredstatements="46" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="11" type="cond" truecount="1" falsecount="0"/>
         <line num="14" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="41" count="11" type="stmt"/>
+        <line num="42" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="leetcode.easy.455 Assign Cookies">
+      <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="assignCookies.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\455 Assign Cookies\assignCookies.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1279" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="965" type="stmt"/>
+        <line num="12" count="965" type="stmt"/>
+        <line num="13" count="1279" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
       </file>
     </package>
     <package name="leetcode.easy.9 PalindromeNumber">
@@ -337,12 +393,12 @@
         <line num="37" count="3" type="stmt"/>
         <line num="38" count="3" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="41" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="3" type="stmt"/>
         <line num="42" count="3" type="stmt"/>
         <line num="43" count="3" type="stmt"/>
-        <line num="44" count="3" type="stmt"/>
-        <line num="45" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="44" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="45" count="5" type="stmt"/>
         <line num="46" count="5" type="stmt"/>
         <line num="47" count="5" type="stmt"/>
         <line num="48" count="5" type="stmt"/>

@@ -71,7 +71,7 @@ export const createLinkedList = (list: number[]): ListNode | null => {
 
 export function mergeTwoListsRecursive(
   list1: ListNode | null,
-  list2: ListNode | null
+  list2: ListNode | null,
 ): ListNode | null {
   if (!list1 || !list2) {
     return list1 ? list1 : list2;
@@ -88,7 +88,7 @@ export function mergeTwoListsRecursive(
 
 export function mergeTwoListsWhile(
   list1: ListNode | null,
-  list2: ListNode | null
+  list2: ListNode | null,
 ) {
   const head = new ListNode();
   let node = head;
