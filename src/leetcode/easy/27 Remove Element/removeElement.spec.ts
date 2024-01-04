@@ -1,42 +1,39 @@
-import { removeElement } from "./removeElement";
+import { strStr } from "../28 Find the Index of the First Occurrence in a String/strStr";
 
-describe("Remove Duplicates from Sorted Array", () => {
-  const sortForStrictEqual = (array1: number[], array2: number[]) => [
-    array1.sort((a, b) => a - b),
-    array2.sort((a, b) => a - b),
-  ];
+describe("Find the Index of the First Occurrence in a String", () => {
+  it('should work correctly with input haystack = "sadbutsad", needle = "sad"', () => {
+    const haystack = "sadbutsad";
+    const needle = "sad";
+    const result = strStr(haystack, needle);
 
-  it("should work correctly with input nums = [3,2,2,3], val = 3", () => {
-    const input = [3, 2, 2, 3];
-    const result = removeElement(input, 3);
-    console.log(input);
-
-    expect(result).toBe(2);
-    expect(input.length).toBe(2);
-    const [array1, array2] = sortForStrictEqual(input, [2, 2]);
-    expect(array1).toStrictEqual(array2);
+    expect(result).toBe(0);
+    expect(haystack.slice(0, 3)).toBe(needle);
   });
 
-  it("should work correctly with input nums = [0,1,2,2,3,0,4,2], val = 2", () => {
-    const input = [0, 1, 2, 2, 3, 0, 4, 2];
-    const result = removeElement(input, 2);
-    console.log(input);
+  it('should work correctly with input haystack = "leetcode", needle = "leeto"', () => {
+    const haystack = "leetcode";
+    const needle = "leeto";
+    const result = strStr(haystack, needle);
 
-    expect(result).toBe(5);
-    expect(input.length).toBe(5);
-    const [array1, array2] = sortForStrictEqual(input, [0, 1, 4, 0, 3]);
-    expect(array1).toStrictEqual(array2);
+    expect(result).toBe(-1);
+    expect(haystack.includes(needle)).toBeFalsy();
   });
 
-  it("should work correctly with input nums = [2,2,3], val = 2", () => {
-    const input = [2, 2, 3];
-    const result = removeElement(input, 2);
+  it('should work correctly with input haystack = "aaa", needle = "aaaa"', () => {
+    const haystack = "aaa";
+    const needle = "aaaa";
+    const result = strStr(haystack, needle);
 
-    console.log(input);
+    expect(result).toBe(-1);
+    expect(haystack.includes(needle)).toBeFalsy();
+  });
 
-    expect(result).toBe(1);
-    expect(input.length).toBe(1);
-    const [array1, array2] = sortForStrictEqual(input, [3]);
-    expect(array1).toStrictEqual(array2);
+  it('should work correctly with input haystack = "mississippi", needle = "issip"', () => {
+    const haystack = "mississippi";
+    const needle = "issip";
+    const result = strStr(haystack, needle);
+
+    expect(result).toBe(4);
+    expect(haystack.slice(4, 4 + needle.length)).toBe(needle);
   });
 });

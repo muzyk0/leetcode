@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1704310616332" clover="3.2.0">
-  <project timestamp="1704310616332" name="All files">
-    <metrics statements="441" coveredstatements="441" conditionals="72" coveredconditionals="72" methods="16" coveredmethods="16" elements="529" coveredelements="529" complexity="0" loc="441" ncloc="441" packages="10" files="10" classes="10"/>
+<coverage generated="1704397780239" clover="3.2.0">
+  <project timestamp="1704397780239" name="All files">
+    <metrics statements="430" coveredstatements="430" conditionals="70" coveredconditionals="70" methods="16" coveredmethods="16" elements="516" coveredelements="516" complexity="0" loc="430" ncloc="430" packages="10" files="10" classes="10"/>
     <package name="easy.455 Assign Cookies">
       <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <file name="assignCookies.ts" path="C:\WebProjects\leetcode\src\easy\455 Assign Cookies\assignCookies.ts">
@@ -328,23 +328,12 @@
         <line num="46" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="leetcode.easy.27 Remove Element">
-      <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <file name="removeElement.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\27 Remove Element\removeElement.ts">
-        <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="1" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="15" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="8" type="stmt"/>
-        <line num="6" count="8" type="stmt"/>
-        <line num="7" count="8" type="stmt"/>
-        <line num="8" count="15" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
+    <package name="leetcode.easy.28 Find the Index of the First Occurrence in a String">
+      <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="strStr.ts" path="C:\WebProjects\leetcode\src\leetcode\easy\28 Find the Index of the First Occurrence in a String\strStr.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="1" type="stmt"/>
       </file>
     </package>
     <package name="leetcode.easy.455 Assign Cookies">

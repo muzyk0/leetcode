@@ -417,31 +417,18 @@ BRF:12
 BRH:12
 end_of_record
 TN:
-SF:src\leetcode\easy\27 Remove Element\removeElement.ts
-FN:1,removeElement
+SF:src\leetcode\easy\28 Find the Index of the First Occurrence in a String\strStr.ts
+FN:1,strStr
 FNF:1
 FNH:1
-FNDA:3,removeElement
-DA:1,3
-DA:2,3
-DA:3,3
-DA:4,15
-DA:5,8
-DA:6,8
-DA:7,8
-DA:8,15
-DA:9,3
-DA:10,3
-DA:11,3
-DA:12,3
-DA:13,3
-LF:13
-LH:13
-BRDA:1,0,0,3
-BRDA:3,1,0,15
-BRDA:4,2,0,8
-BRF:3
-BRH:3
+FNDA:4,strStr
+DA:1,1
+DA:2,1
+LF:2
+LH:2
+BRDA:1,0,0,4
+BRF:1
+BRH:1
 end_of_record
 TN:
 SF:src\leetcode\easy\455 Assign Cookies\assignCookies.ts
